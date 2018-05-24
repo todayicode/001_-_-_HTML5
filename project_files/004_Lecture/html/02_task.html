@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body {
+      text-align: justify;
+      
+    }
+    .chess {
+      width: 300px;
+    }
+
+    table, td {
+      border: 2px solid black;
+      empty-cells: show;
+      border-collapse: collapse;
+      
+    }
+
+    td {
+      width: 5rem;
+      height: 2rem;
+      }
+    tr.first-row td:nth-of-type(2n+1),
+    tr.third-row td:nth-of-type(2n+1),
+    tr.fifth-row td:nth-of-type(2n+1),
+    tr.seventh-row td:nth-of-type(2n+1) {
+      background-color:black;
+    }
+    tr.second-row td:nth-of-type(2n),
+    tr.fourth-row td:nth-of-type(2n),
+    tr.sixth-row td:nth-of-type(2n),
+    tr.eightth-row td:nth-of-type(2n) {
+      background-color:black;
+    }
+
+    p:first-of-type {
+      font-family:fantasy;
+    }
+    p:first-line {
+      text-decoration: underline;
+    }
+    p::selection {
+      color: springgreen;      
+    }
+
+    h2:first-letter {
+      font-family: fantasy;
+      color: red;
+      font-weight: bolder;
+      font-size: 3rem;
+    }
+ 
+    ol {
+      list-style-type: lower-greek;
+    }
+
+    li:nth-child(2n+2) {
+      color:chocolate;      
+    }
+    li:nth-child(2n+1) {
+      color:rgb(4, 234, 250);      
+    }
+    li:after {
+      content: ";"
+    }
+    li:last-child:after {
+      content: "!!!!"
+    }
+   
+    a {
+      font-weight: bolder;
+      font-size: 20px;
+    }
+
+    a:hover {
+      text-transform: uppercase;
+      font-size: 80px;
+      color:springgreen;
+      content: "don't go away!"
+    }
+
+
+  </style>
+</head>
+<body>
+  <p>Алиса в раздумье уставилась на гриб, пытаясь сообразить, где у него бока, а это было весьма и весьма нелегко, так как шляпка у гриба была совершенно круглая.</p>
+  <p>Но... хотите - верьте, хотите - нет, Алиса все-таки нашла выход! Она встала на цыпочки, обхватила шляпку обеими руками, и там, куда смогла дотянуться, отломила по кусочку - сразу и правой и левой рукой!</p>
+  <p>Теперь оставалось самое трудное: решить, с какого начать. "Какой какой? Какой - ТОТ, какой - ЭТОТ? - лихорадочно думала Алиса и в конце концов отважилась откусить - совсем чуточку! - от того кусочка, который был в правой руке.</p>
+  <p>И в ту же секунду почувствовала сильный удар в подбородок: он стукнулся об ее собственные ботинки!</p>
+  <p> Как ни ошеломлена была Алиса, она все же сообразила, что времени терять нельзя: надо немедленно откусить хоть чуточку от другого куска, иначе она пропала!</p>
+  <p>Это было ужасно трудно: подбородок бедной девочки так сильно прижало к ногам, что она никак не могла открыть рот! И все-таки Алиса ухитрилась кое-как откусить и проглотить крошечку...</p>
+<br>
+<div>
+  <h2>Персонажи</h2>
+  <ol>
+    <li>Алиса</li>
+    <li>Белый Кролик</li>
+    <li>Додо</li>
+    <li>Гусеница</li>
+    <li>Чеширский который</li>
+    <li>Герцогиня</li>
+    <li>Болванщик</li>
+    <li>Мартовский заяц</li>
+    <li>Соня</li>
+    <li>Грифон</li>
+    <li>Черепаха Квази</li>
+    <li>Червонная Королева</li>
+  </ol>
+</div>
+<br>
+<div class="chess">
+  <table>
+  <tr class=first-row>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr class=second-row>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr class=third-row>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr class=fourth-row>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+  </tr>
+  <tr class=fifth-row>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class=sixth-row>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class=seventh-row>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr class=eightth-row>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+  </table>
+</div>  
+<br> <br>
+<a href="../004_CSS3.html">Назад</a>
+
+
+</body>
+
+</html>
