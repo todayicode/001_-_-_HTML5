@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>002_task</title>
+  <style>
+    div {
+      font-weight: bold;
+    }
+    header {
+      width: 100%;
+      min-height: 70px;
+      background-color:rgb(67, 67, 87);
+      font-size: 60px;
+      text-align: center;
+      padding-top: 20px;
+      color: #ffffff;
+      font-family: fantasy;
+      font-weight: bold;
+      letter-spacing: 3px;
+      word-spacing: 5px;
+    }
+
+    nav {
+      width: 100%;
+      height: 32px;
+      background-color:salmon;
+    }
+
+    aside {
+      width: 20%;
+      height: 600px;
+      background-color:lightgreen;
+      float: left;
+      
+    }
+
+    p#aside {
+      margin-left: 10px;
+    }
+
+    main {
+      width: 80%;
+      height: 600px;
+      background-color: grey;
+      float: left;
+         
+
+    }
+
+    .quote {
+      white-space: pre-line;
+      font-style: italic;
+      color: white;
+      letter-spacing: 1px;
+      word-spacing: 3px;
+    }
+
+    video {
+      margin: 50px;
+      border: 2px solid white;
+      
+    }
+
+    footer {
+      width: 100%;
+      min-height: 40px;
+      background-color:deepskyblue; 
+      clear: left;
+      color: white;
+      padding: 5px;
+    }
+
+    /* Media Queries */
+    @media(max-width: 768px) {
+    aside, main {
+      float:none;
+      text-align: center;
+      width: 100%;
+      height: auto;
+    }
+
+    video {
+      width: auto;
+      margin-left: 10px;
+      margin-bottom: 5px;
+      border: none;
+    }
+
+    .quote, p {
+      text-align:left; 
+      text-overflow: ellipsis;
+     }
+
+     blockquote, p#source  {
+       margin-bottom: 0;
+
+     }
+}
+
+
+  </style>
+</head>
+<body> 
+  <header>Alice In Wonderland</header>
+  <nav>Блок навигации (&lt;nav&gt;)</nav>
+  <aside>
+  <p id="aside">Cheshire Cat quote</p>
+  </aside>
+  <main>
+    <video width="420" controls>
+      <source src="../video/Alice.mp4" type="video/mp4">
+      <source src="../video/Alice.avi" type="video/avi">
+      <source src="../video/Alice.mov" type="video/mov">
+    </video>
+    <blockquote cite="http://www.alice-in-wonderland.net/resources/chapters-script/alices-adventures-in-wonderland/chapter-6/">
+      <p class="quote">“Would you tell me, please, which way I ought to go from here?”
+      “That depends a good deal on where you want to get to,” said the Cat.
+      “I don’t much care where–” said Alice.
+      “Then it doesn’t matter which way you go,” said the Cat.
+      “–so long as I get SOMEWHERE,” Alice added as an explanation.
+      “Oh, you’re sure to do that,” said the Cat, “if you only walk long enough.”</p> 
+      <p id="source">(Alice’s Adventures in Wonderland, <a href="http://www.alice-in-wonderland.net/resources/chapters-script/alices-adventures-in-wonderland/chapter-6/"> Chapter-6)</a></p>
+    </blockquote>
+  </main>
+  <footer>
+  <p>Alice In Wonderland, the cartoon</p>
+  <p>&copy; Walt Disney, 1951</p> 
+  </footer>
+    <br>
+    <a href="../006_Lecture.html">Назад</a>
+</body>
+</html>
