@@ -31,19 +31,20 @@
 
     aside {
       width: 20%;
-      height: 600px;
+      /* height: 600px; */
       background-color:lightgreen;
       float: left;
+      height: 700px;
       
     }
 
-    p#aside {
-      margin-left: 10px;
+    aside details {
+      margin: 10px;
     }
 
     main {
       width: 80%;
-      height: 600px;
+      height: 700px;
       background-color: grey;
       float: left;
          
@@ -61,10 +62,15 @@
     video {
       margin: 50px;
       border: 2px solid white;
+      width: 420px;
       
     }
 
-    footer {
+    p#source, p#source a:visited {
+      color: white;
+    }
+
+      footer {
       width: 100%;
       min-height: 40px;
       background-color:deepskyblue; 
@@ -80,6 +86,10 @@
       text-align: center;
       width: 100%;
       height: auto;
+    }
+
+    aside details {
+      margin: 0;
     }
 
     video {
@@ -105,18 +115,25 @@
 </head>
 <body> 
   <header>Alice In Wonderland</header>
-  <nav>Блок навигации (&lt;nav&gt;)</nav>
+  <nav> 
+   nav block
+  </nav>
   <aside>
-  <p id="aside">Cheshire Cat quote</p>
+  <p>aside block</p>
+ 
   </aside>
+
   <main>
-    <video width="420" controls>
+    <!-- <vide> -->
+    <video controls>
       <source src="../video/Alice.mp4" type="video/mp4">
       <source src="../video/Alice.avi" type="video/avi">
       <source src="../video/Alice.mov" type="video/mov">
     </video>
+    
     <blockquote cite="http://www.alice-in-wonderland.net/resources/chapters-script/alices-adventures-in-wonderland/chapter-6/">
-      <p class="quote">“Would you tell me, please, which way I ought to go from here?”
+      <h3>contenteditable quote</h3>
+      <p class="quote" contenteditable="">“Would you tell me, please, which way I ought to go from here?”
       “That depends a good deal on where you want to get to,” said the Cat.
       “I don’t much care where–” said Alice.
       “Then it doesn’t matter which way you go,” said the Cat.
@@ -124,6 +141,7 @@
       “Oh, you’re sure to do that,” said the Cat, “if you only walk long enough.”</p> 
       <p id="source">(Alice’s Adventures in Wonderland, <a href="http://www.alice-in-wonderland.net/resources/chapters-script/alices-adventures-in-wonderland/chapter-6/"> Chapter-6)</a></p>
     </blockquote>
+    
   </main>
   <footer>
   <p>Alice In Wonderland, the cartoon</p>
