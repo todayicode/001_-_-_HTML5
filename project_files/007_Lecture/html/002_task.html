@@ -5,9 +5,74 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <style>
+    form {
+      width: 300px;
+      /* border: 1px solid; */
+    }
+
+    fieldset {
+      /* background-color: lightgray; */
+      /* border: none; */
+      /* border-top: 5px black; */
+      border-bottom: none;
+      border-left: none;
+      border-right: none;
+    }
+    legend {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .required {
+      font-weight: bold; 
+      
+    }
+    .required:first-letter {
+      font-variant-position: super;
+      color: red; 
+      
+    }
+  </style>
 </head>
 <body>
-  
+  <form>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="first-name" class="required">* First name:</label>
+        <input type="text" name="first-name" id="first-name" required>
+        <label for="middle-name">Middle name:</label>
+        <input type="text" name="middle-name" id="middle-name">
+        <label for="lat-name" class="required">* Last name:</label>
+        <input type="text" name="last-name" id="last-name" required>
+    </fieldset>
+    <fieldset>
+        <legend>Address</legend>
+        <label for="address">Address:</label>
+        <input type="text" name="address" id="address">
+        <label for="city">City or Town:</label>
+        <input type="text" name="city" id="city">
+        <label for="state">State:</label>
+        <select>
+          <option value="blank">Choose a State</option>
+          <option value=""></option>
+        </select>
+        <label for="zip" class="required">* Zip code:</label>
+        <input type="text" name="zip" id="zip" required>
+    </fieldset>
+
+    
+
+
+  </form>
+  <br> <br> <br>
+  <table>
+      <caption style="text-transform: uppercase; font-weight:bold;">Образец</caption>
+          <tr>
+        <td><img src="../images/form1.jpg" alt="form1"></td>
+      </tr>
+    </table>
+    <br><br><br>
 
   <a href="../007_Lecture.html">Назад</a>
 </body>

@@ -5,9 +5,100 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <style>
+    main {
+      background-color: rgb(25, 168, 216);
+      padding: 30px;
+      width: 520px;
+    }
+
+    .form-container {
+      
+      border: 1px solid;
+      width: 360px;
+      margin-left: 90px;
+      box-shadow: 0 0 5px 5px lightslategrey;
+      border-radius: 2px;
+      background-color: white;
+    }
+
+    .form-title {
+      text-align: center;
+      padding: 10px;
+      background-color:rgb(237, 238, 240);
+      font-weight: bold;
+      border-bottom: 1px solid lightgray;
+    }
+
+    #login, #password {
+      
+      width: 80%;
+      margin: 20px 20px 10px;
+      padding: 10px;
+      border-radius: 1px;
+      box-shadow: 0 0 5px 5px rgb(194, 214, 235);
+      
+     
+    }
+    #remember {
+      margin: 15px 10px 25px 15px;
+    }
+
+    .button {
+    background-color: rgb(195, 222, 240);
+    border: 1px solid rgb(44, 158, 235);
+    border-radius: 20px;
+    color: black;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+p {
+  color: white;
+  margin: none;
+  padding: none;
+  margin-top: 40px;
+  margin-left: 180px;
+  font-size: 12px;
+}
+
+.form-anchor {
+  color: white;
+}
+
+  </style>
 </head>
 <body>
+  <main>
+  <div class="form-container">
+    <div class="form-title">
+      Login to Webb App
+    </div>
+    <form action="post">
+        <input type="text" name="login" id="login" placeholder="Username or Email">
+        <input type="password" name="password" id="password" placeholder="Password">
+        
+        <input type="checkbox" name="remember" id="remember">
+        <label for="remember">Remember me on this computer</label>
+        <input type="button" value="Login" class="button">
+    </form>
+ </div>
+ <p>
+    Forgot your password? <a href="#" class="form-anchor">Click here to reset it</a>
+  </p>
+  </main>
   
+  <table>
+    <caption style="text-transform: uppercase; font-weight:bold;">Образец</caption>
+        <tr>
+      <td><img src="../images/form2.png" alt="form2"></td>
+    </tr>
+  </table>
+  <br><br><br>
 
   <a href="../007_Lecture.html">Назад</a>
 </body>
