@@ -1,0 +1,104 @@
+body {
+  padding-top: 40px;
+}
+.carousel img {
+  width: 100%;
+  height: 550px; 
+
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Fjalla One', sans-serif ;
+}
+
+h1 {
+  color: #47adbc ;
+}
+
+.divider {
+  background-image: url("../img/divider-pattern.png");
+  background-repeat: repeat-x;
+  height: 40px;
+  width: 100%;
+
+
+}
+
+/* navigation style */
+
+.navbar .brand {
+  font-family: "Merienda", cursive;
+  font-size: 28px;
+} 
+
+/* coursel style */
+.carousel-caption {
+  background: none ;
+  max-width: 800px;
+  top: 150px;
+  padding: 0 200px;
+}
+
+.carousel-caption h1 {
+  text-shadow: 0 2px #222;
+}
+
+.carousel-caption a {
+  margin-top: 20px;
+}
+/* page-style */
+#heading, #screenshots, #features, #download {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#about div.row {
+  padding: 50px 0;
+}
+
+#screenshots h1 {
+  padding-bottom: 30px;
+}
+
+/* footer style */
+footer {
+  background-color: #1b1b1b;
+  color: #999999;
+  
+}
+
+footer .span12 {
+  text-align: center;
+}
+
+#social li a {
+  background-image: url(../img/social-media-icons.png);
+  display: block;
+  background-repeat: no-repeat;
+  height: 32px;
+  width: 32px;
+}
+
+#social li a.facebook-icon {
+  background-position: 0 0;
+}
+
+#social li a:hover.facebook-icon {
+  background-position: 0 -32px;
+}
+
+#social li a.twitter-icon {
+  background-position: -32px 0;
+}
+
+#social li a:hover.twiter-icon {
+  background-position: -32px -32px;
+}
+
+#social li a.google-icon {
+  background-position: -64px 0;
+}
+
+#social li a:hover.google-icon {
+  background-position: -64px -32px;
+}
