@@ -12,24 +12,32 @@
             background-color: #4daad2;
             padding-top: 25vh;
         }
-  
-    form {
-            background: #fff;
-        }
-  
+   
     .form-container {
-            border-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
             padding: 30px;
-            box-shadow: 0 0 10px 0;
+            box-shadow: 0 3px 10px 0;
+            background: #fff;
+            
         }
+    .form__title {
+        margin: 0;
+        padding: 5px;
+        background: lightgray;
+    }
     </style>
 </head>
 <body>
   <div class="container">
+        <div class="row form__title">
+            <div class="col-lg-4">
+                    <h5 class="text-center">Login to Web App</h5>
+            </div>
+        </div>
       <div class="row justify-content-center">
-          <div class="col-8">
+          <div class="col-lg-4">
               <form class="form-container">
-                  <h5 class="text-center bg-secondary">Login to Web App</h5>
                   <div class="form-group">
                       <input type="email" class="form-control"  placeholder="Username or Email">
                   </div>
