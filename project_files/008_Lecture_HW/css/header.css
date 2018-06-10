@@ -244,18 +244,8 @@ body {
     width: 100%;
 }
 
-.works__item img {
-    margin: 0;
-    padding: 0;
-}
 
-.works__item a{
-    display: block;
-    width: 400px;
-    height: 300px;
-    float: left;
-}
-
+/* team */
 .wrapper__team {
     height: 925px;
 }
@@ -577,8 +567,54 @@ body {
     margin-top: 75px;
 }
 
-  
+/* works images + hover */
 
+
+
+.works__image {
+    width: 400px;
+    height: 300px;
+    float:left;
+}
+
+
+
+
+.works__image.image1 {
+    background-image: url("../img/works_1.png")
+}
+
+.works__image.image2 {
+    background-image: url("../img/works_2.png")
+}
+
+.works__image.image3 {
+    background-image: url("../img/works_3.png")
+}
+
+.works__image.image4 {
+    background-image: url("../img/works_4.png")
+}
+
+.works__image.image5 {
+    background-image: url("../img/works_5.png")
+}
+
+.works__image.image6 {
+    background-image: url("../img/works_6.png")
+}
+
+.works__image.image7 {
+    background-image: url("../img/works_7.png")
+}
+
+.works__image.image8 {
+    background-image: url("../img/works_8.png")
+}
+
+.works__image:hover {
+    background-image: url("../img/Work_hover.png");
+}
 
 
 
