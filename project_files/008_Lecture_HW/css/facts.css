@@ -1,0 +1,39 @@
+.wrapper__facts {
+    background-image: url("../img/Rectangle_funfacts.png");
+    height: 600px;
+}
+
+.facts__content {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+
+.facts__info {
+    text-align: center;
+}
+
+
+.facts__info h2{
+    text-transform: uppercase;
+    color: #0eb493;
+}
+
+.facts__group {
+    width: 1035px;
+    margin: 0 auto;
+}
+
+.facts__item {
+    width: 130px;
+    height: 130px;
+    float: left;
+    margin-right: 170px;
+    margin-top: 25px;
+}
+
+.facts__item:last-child {
+    margin-right: 0;
+    float: right;
+}

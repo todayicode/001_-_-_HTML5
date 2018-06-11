@@ -1,0 +1,51 @@
+/* features */
+
+.container__bg {
+    width: 100%;
+    background-color: #f4f7f9;
+}
+
+.features {
+    height: 460px;
+    margin: 0 auto;
+    width: 1170px;
+    padding-top: 67px;
+    box-sizing: border-box;
+}
+
+.features__title {
+    text-transform: uppercase;
+    text-align: center;
+ 
+}
+.features__title h2 { 
+    font-family: "OpenSans Bold";
+    margin: 0;
+    color: #0eb493;
+}
+
+.features__title img {
+    vertical-align: middle;
+    margin: 14px 14px 0 0;
+}
+
+.features__icon {
+    float: left;
+    width: 40px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.features__item {
+    margin-top: 53px;
+
+}
+.features__text {
+    float: left;
+    width: 300px;
+    font-size: 13px;
+}
+
+.features__text h3 {
+    font-size: 20px;
+}

@@ -1,0 +1,139 @@
+.works {
+    height: 350px;
+    background-color: #fff;
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.works__info h2{
+    text-transform: uppercase;
+    color: #0eb493;
+    
+}
+
+.works__info  img {
+    vertical-align: middle;
+    margin: 0 14px;  
+}
+
+.works__info  p {
+    width: 930px;
+    margin: 45px auto 0; 
+ 
+} 
+
+
+.works__menu ul {
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.works__menu li {
+    list-style: none;
+    float: left;
+    display: block;
+    margin-right: 35px;
+    
+}
+
+.works__menu li a {
+    text-decoration: none;
+    font-size: 13px; 
+    font-weight: bold;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black; 
+}
+
+.works__menu li a:hover {
+    background-color: #0eb493;
+    color: #fff;    
+}
+
+.works__item {
+    width: 100%;
+}
+
+
+.works__image {
+    width: 400px;
+    height: 300px;
+    float:left;
+}
+
+
+
+/* works - images */
+.works__image.image1 {
+    background-image: url("../img/works_1.png");
+}
+
+.works__image.image2 {
+    background-image: url("../img/works_2.png")
+}
+
+.works__image.image3 {
+    background-image: url("../img/works_3.png")
+}
+
+.works__image.image4 {
+    background-image: url("../img/works_4.png")
+}
+
+.works__image.image5 {
+    background-image: url("../img/works_5.png")
+}
+
+.works__image.image6 {
+    background-image: url("../img/works_6.png")
+}
+
+.works__image.image7 {
+    background-image: url("../img/works_7.png")
+}
+
+.works__image.image8 {
+    background-image: url("../img/works_8.png")
+}
+
+/* image hover */
+.works__image.image1:hover {
+    background: url("../img/Work_hover.png"), url("../img/works_1.png");
+}
+.works__image.image2:hover {
+    background-image: url("../img/Work_hover.png"), url("../img/works_2.png");
+}
+
+.works__image.image3:hover {
+    background-image: url("../img/Work_hover.png"), url("../img/works_3.png");
+}
+
+.works__image.image4:hover {
+    background-image: url("../img/Work_hover.png"), url("../img/works_4.png");
+}
+
+.works__image.image5:hover {
+    background-image: url("../img/Work_hover.png"), url("../img/works_5.png");
+}
+
+.works__image.image6:hover {
+    background-image: url("../img/Work_hover.png"), url("../img/works_6.png");
+}
+
+.works__image.image7:hover {
+    background-image: url("../img/Work_hover.png"), url("../img/works_7.png");
+}
+
+.works__image.image8:hover {
+    background-image: url("../img/Work_hover.png"), url("../img/works_8.png");
+}
+
+
+
+
+
+
