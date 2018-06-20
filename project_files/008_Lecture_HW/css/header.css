@@ -108,6 +108,33 @@
     margin-right: 20px;
 }
 
+.header__social #twitter:hover {
+    background-image: url("../img/twitter-hover.png");
+    background-repeat: no-repeat;
+    background-position-x: 2px;
+    background-position-y: 1px;
+}
+
+.header__social #facebook:hover {
+    background-image: url("../img/facebook-hover.png");
+    background-repeat: no-repeat;
+    background-position-x: 1px;
+    background-position-y: 1px;
+}
+
+.header__social #google:hover {
+    background-image: url("../img/google+.png");
+    background-repeat: no-repeat;
+    background-position-x: 1px;
+    background-position-y: 1px;
+}
+
+.header__social #dribble:hover {
+    background-image: url("../img/dribbble-hover.png");
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: 1px;
+}
 
 
 
