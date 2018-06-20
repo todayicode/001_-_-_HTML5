@@ -34,7 +34,9 @@
 }
 .team__person {
     float: left;
-    margin-right: 30px;    
+    margin-right: 30px; 
+    
+   
 }
 
 .team__person:last-child {
@@ -52,3 +54,47 @@
 .team__person p:nth-child(3) {
     font-size: 10pt;
 }
+
+/* team - images */
+.team__image {
+    display: block;
+    width: 270px;
+    height: 300px;
+}
+.team__image.image1 {
+    background-image: url("../img/team_john.png");
+}
+
+.team__image.image2 {
+    background-image: url("../img/team_chrystine.png");
+}
+
+.team__image.image3 {
+    background-image: url("../img/team_martin.png");
+}
+
+.team__image.image4 {
+    background-image: url("../img/team_steve.png");
+}
+
+
+/* team image hover */
+
+
+.team__image.image1:hover {
+    background: url("../img/Team_Hover.png"), url("../img/team_john.png");
+}
+
+
+.team__image.image2:hover {
+    background-image:  url("../img/Team_Hover.png"), url("../img/team_chrystine.png");
+}
+
+.team__image.image3:hover {
+    background-image:  url("../img/Team_Hover.png"), url("../img/team_martin.png");
+}
+
+.team__image.image4:hover {
+    background-image:  url("../img/Team_Hover.png"), url("../img/team_steve.png");
+} 
+
