@@ -6,7 +6,7 @@
 .discuss {
     background-color: #fff;
     width: 1170px;
-    margin: 0 auto 110px;
+    margin: 90px auto 110px;
     text-align: center;
 
 }
@@ -14,22 +14,22 @@
 .discuss__info h2{
     text-transform: uppercase;
     color: #0eb493;
-    
+    font-family: "OpenSans Bold"; 
+    margin-bottom: 0;
 }
 
 .discuss__info  img {
     vertical-align: middle;
-    margin: 0 14px;
+    margin:  14px ;
    
 }
 
 .discuss__info  p {
-    /* width: 930px; */
+
     margin: 45px auto 0; 
 } 
 
 .discuss__address {
-    /* width: 245px; */
     float: left;
 }
 
@@ -42,7 +42,15 @@
     text-align: left;
     color: rgb(6, 32, 51);
     font-size: 22px;
-    font-family: "OpenSans";
+    font-family: "OpenSans Light"; 
+    margin-right: 30px;
+}
+
+.discuss__address h3 {
+    text-align: left;
+    color: rgb(6, 32, 51);
+    font-size: 22px;
+    font-family: "OpenSans Light"; 
 }
 
 .discuss__address p {
@@ -53,13 +61,10 @@
 
 }
 
-.discuss__input{
-    /* width: 800px; */
-}
-
 .discuss__input h3 {
     text-align: left;
-    margin-left: 13px;
+    margin-left: 20px;
+    font-family: "OpenSans SemiBold"; 
 }
 
 .discuss__input input {
@@ -101,7 +106,7 @@
 }
 
 .discuss__input .form__row3 label{
-    margin-left: 12px;
+    margin-left: 5px;
 }
 
 .form__social {

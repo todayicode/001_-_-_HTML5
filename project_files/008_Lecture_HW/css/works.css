@@ -1,12 +1,13 @@
 .works {
-    height: 350px;
+    height: 275px;
     background-color: #fff;
     width: 1170px;
-    margin: 0 auto;
+    margin: 90px auto 0;
     text-align: center;
 }
 
 .works__info h2{
+    font-family: "OpenSans Bold";
     text-transform: uppercase;
     color: #0eb493;
     
@@ -19,7 +20,7 @@
 
 .works__info  p {
     width: 930px;
-    margin: 45px auto 0; 
+    margin: 30px auto 0; 
  
 } 
 
@@ -28,6 +29,7 @@
     padding: 0;
     display: inline-block;
     text-align: center;
+    margin-top: 45px;
     
 }
 
@@ -36,6 +38,7 @@
     float: left;
     display: block;
     margin-right: 35px;
+    font-family: "OpenSans Bold";
     
 }
 

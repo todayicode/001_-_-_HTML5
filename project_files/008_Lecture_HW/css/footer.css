@@ -30,6 +30,10 @@
     float: left; 
 }
 
+.footer__info {
+    margin-top: 15px;
+}
+
 .footer__subscribe {
     float: left;
     margin-left: 45px;
@@ -42,7 +46,7 @@
 }
 
 .footer__subscribe input {
-    width: 100%;
+    width: 98%;
     height: 45px;
     font-size: 20pt;
     margin-bottom: 10px;
@@ -53,7 +57,7 @@
 
 .footer__explore {
     float: left;
-    margin-left: 25px;
+    margin-left: 35px;
 }
 
 .footer__explore h4 {
@@ -104,4 +108,5 @@
 .author__copyright {
     color: black;
     margin-top: 75px;
+    margin-left: 15px;
 }
